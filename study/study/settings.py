@@ -32,6 +32,7 @@ ALLOWED_HOSTS = []
 
 INSTALLED_APPS = [
     # user's
+    'celery_study',
 
     # third-party
     'django_extensions',
