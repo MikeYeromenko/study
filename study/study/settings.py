@@ -135,3 +135,4 @@ AUTH_USER_MODEL = 'celery_study.MyUser'
 
 # Celery configuration
 CELERY_BROKER_URL = 'amqp://localhost:5672/'
+# CELERY_RESULT_BACKEND = 'rpc://'
