@@ -132,3 +132,6 @@ STATIC_URL = '/static/'
 DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
 
 AUTH_USER_MODEL = 'celery_study.MyUser'
+
+# Celery configuration
+CELERY_BROKER_URL = 'amqp://localhost:5672/'
